@@ -1,12 +1,10 @@
 # TP2_Argparse
 
 ## About : select_fasta.py :
-----------------------------
 
 This script takes a fasta file as input and checks if the sequences inside are valid.
 
 ## Features :
--------------
 
 **Main Feature** :
 - Determine if sequences are valid or not valid
@@ -18,7 +16,6 @@ This script takes a fasta file as input and checks if the sequences inside are v
 
 
 ## Usage :
-----------
 
 For information on using the script you can type : 
 
@@ -28,7 +25,6 @@ python3 select_fasta.py -h
 ```
 
 ## Autocompletion :
--------------------
 
 if you don't get autocompletion using <TAB> after argument do the following steps : 
 
@@ -40,6 +36,5 @@ sudo activate-global-python-argcomplete3
 ==> Now you can run the script on the terminal with autocompletion enabled.
 
 ## Authors :
-------------
 
 **Mohamed Ouertani**
