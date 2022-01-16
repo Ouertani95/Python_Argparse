@@ -26,7 +26,7 @@ python3 select_fasta.py -h
 
 ## Autocompletion :
 
-if you don't get autocompletion using <TAB> after argument do the following steps : 
+if you don't get autocompletion using **TAB** after an argument do the following steps : 
 
 ```bash
 pip uninstall argcomplete
