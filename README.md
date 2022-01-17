@@ -14,13 +14,24 @@ This script takes a fasta file as input and checks if the sequences inside are v
 - Determine positions of non nucleotides in each sequence
 - output results in a text file
 
+## Installation :
+
+To install this script use the following commands :
+
+```bash
+mkdir ~/Desktop/OUERTANI/
+cd ~/Desktop/OUERTANI/
+git clone https://github.com/Ouertani95/TP2_Argparse
+pip install -r requirements.txt
+```
+==> You're now good to go!
 
 ## Usage :
 
-For information on using the script you can type : 
+For information on using the script you can type the following commands :
 
 ```bash
-cd Path/to/script/
+cd ~/Desktop/OUERTANI/
 python3 select_fasta.py -h
 ```
 
