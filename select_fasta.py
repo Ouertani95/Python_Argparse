@@ -86,7 +86,7 @@ def sequence_checker():
     recs = SeqIO.parse(args['inputfile'].name, 'fasta')
     for record in recs:
         if args["nucnumber"]:
-            print("\n%s has %s nucleotides." % (record.id, len(record.seq)))
+            print("%s has %s nucleotides." % (record.id, len(record.seq)))
         if not is_valid(record.seq):
             print(record.id, " is NOT a valid sequence.")
             if args["position"]:
@@ -98,6 +98,9 @@ def sequence_checker():
                         # find all positions of the non nucleotide character
                         print("%s is found %s time(s) at position(s) %s"
                               % (i, counts.get(i), res))
+                print("\n")
+            else:
+                print("\n")
         else:
             print(record.id, " is a valid sequence.\n")
 
