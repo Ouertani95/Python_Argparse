@@ -98,9 +98,7 @@ def sequence_checker():
                         # find all positions of the non nucleotide character
                         print("%s is found %s time(s) at position(s) %s"
                               % (i, counts.get(i), res))
-                print("\n")
-            else:
-                print("\n")
+            print("\n")
         else:
             print(record.id, " is a valid sequence.\n")
 
